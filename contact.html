@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us | CN Construction Company Limited</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+  <!-- =========================
+       NAVIGATION BAR
+  ========================= -->
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <a href="index.html">
+          <img
+            src="asset/ChatGPT Image Sep 23, 2026, 10_47_17 AM.png"
+            alt="CN Construction Company Limited logo"
+            class="logo"
+          >
+        </a>
+      </div>
+
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- =========================
+         CONTACT PAGE BANNER
+    ========================= -->
+    <section class="contact-page-banner">
+      <div class="contact-page-banner-content">
+        <p>Contact Us</p>
+        <h1>Let’s Discuss Your Next Construction Project.</h1>
+
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Contact Us</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         CONTACT PAGE INTRO
+    ========================= -->
+    <section class="contact-page-intro">
+      <div class="contact-page-intro-content">
+        <p class="section-label">Get in Touch</p>
+        <h2>We Are Ready to Hear About Your Project.</h2>
+        <p>
+          Whether you need building construction, renovation, site work,
+          project management, or a professional consultation, contact our
+          team and we will be happy to assist you.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================
+         CONTACT DETAILS CARDS
+    ========================= -->
+    <section class="contact-details-section">
+      <div class="contact-details-container">
+
+        <article class="contact-detail-card">
+          <span class="contact-card-number">01</span>
+          <h2>Visit Our Office</h2>
+          <p>
+            Meet our team to discuss your construction requirements and
+            project ideas.
+          </p>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Dar+es+Salaam+Tanzania"
+            target="_blank"
+            rel="noopener"
+          >
+            Dar es Salaam, Tanzania →
+          </a>
+        </article>
+
+        <article class="contact-detail-card">
+          <span class="contact-card-number">02</span>
+          <h2>Call Our Team</h2>
+          <p>
+            Call us directly to ask questions, schedule a consultation,
+            or request a quotation.
+          </p>
+          <a href="tel:+255783603028">+255 616155723→</a>
+        </article>
+
+        <article class="contact-detail-card">
+          <span class="contact-card-number">03</span>
+          <h2>Send an Email</h2>
+          <p>
+            Send your project information and our team will respond as
+            soon as possible.
+          </p>
+          <a href="mailto:info@cnconstruction.co.tz">
+            info@cnconstruction.co.tz →
+          </a>
+        </article>
+
+        <article class="contact-detail-card">
+          <span class="contact-card-number">04</span>
+          <h2>Working Hours</h2>
+          <p>
+            Our office is available during the following working days
+            and hours.
+          </p>
+          <a href="tel:+255783603028">
+            Monday – Saturday, 8:00 AM – 5:00 PM →
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- =========================
+         CONTACT FORM
+    ========================= -->
+    <section class="contact-page-form-section">
+      <div class="contact-page-form-container">
+
+        <div class="contact-form-side">
+          <p class="section-label">Project Inquiry</p>
+
+          <h2>Tell Us About Your Project.</h2>
+
+          <p>
+            Fill in the form with your project requirements. Include the
+            project location, service needed, and any useful details. Our
+            team will use this information to understand how we can help.
+          </p>
+
+          <div class="contact-form-note">
+            <strong>Helpful details to include:</strong>
+            <ul>
+              <li>Project location</li>
+              <li>Type of service required</li>
+              <li>Estimated project size or budget</li>
+              <li>Preferred start date</li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="contact-page-form" action="#" method="post">
+
+          <div class="contact-form-row">
+            <div class="contact-page-group">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                id="full-name"
+                name="full-name"
+                placeholder="Enter your full name"
+                autocomplete="name"
+                required
+              >
+            </div>
+
+            <div class="contact-page-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+255..."
+                autocomplete="tel"
+                inputmode="tel"
+                required
+              >
+            </div>
+          </div>
+
+          <div class="contact-page-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@email.com"
+              autocomplete="email"
+              required
+            >
+          </div>
+
+          <div class="contact-page-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+              <option value="" selected disabled>Select a service</option>
+              <option value="building-construction">Building Construction</option>
+              <option value="renovation">Renovation & Remodeling</option>
+              <option value="civil-works">Civil Works</option>
+              <option value="project-management">Project Management</option>
+              <option value="interior-finishing">Interior Finishing</option>
+              <option value="site-consultation">Site Consultation</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="contact-page-group">
+            <label for="message">Project Details</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="7"
+              placeholder="Tell us about your project..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="contact-page-submit">
+            Send Project Inquiry
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+    <!-- =========================
+         FINAL CALL TO ACTION
+    ========================= -->
+    <section class="contact-page-cta">
+      <div class="contact-page-cta-content">
+        <p>CN Construction Company Limited</p>
+        <h2>Quality Construction Starts With a Conversation.</h2>
+        <a href="tel:+255692331927">Call Us Today</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          CN <span>Construction</span>
+        </a>
+
+        <p>
+          CN Construction Company Limited delivers reliable construction
+          solutions with quality workmanship, professional planning, and
+          lasting value.
+        </p>
+
+        <a href="contact.html" class="footer-quote-button">
+          Request a Quote
+        </a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+
+        <nav aria-label="Footer navigation">
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-column">
+        <h3>Our Services</h3>
+
+        <ul class="footer-links">
+          <li><a href="services.html">Building Construction</a></li>
+          <li><a href="services.html">Renovation & Remodeling</a></li>
+          <li><a href="services.html">Civil Works</a></li>
+          <li><a href="services.html">Project Management</a></li>
+          <li><a href="services.html">Interior Finishing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column footer-contact">
+        <h3>Contact Details</h3>
+
+        <p>
+          <strong>Location:</strong><br>
+          Dar es Salaam, Tanzania
+        </p>
+
+        <p>
+          <strong>Phone:</strong><br>
+          <a href="tel:+255700000000">+255692331927</a>
+        </p>
+
+        <p>
+          <strong>Email:</strong><br>
+          <a href="mailto:info@cnconstruction.co.tz">
+            info@cnconstruction.co.tz
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <p>
+          © <span id="current-year"></span>
+          CN Construction Company Limited. All rights reserved.
+        </p>
+
+        <a href="#top" class="back-to-top">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
